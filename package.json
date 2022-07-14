@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/LukeGiles3/FCCRequestHeaderParser#readme",
   "dependencies": {
-    "firebase": "^9.9.0"
+    "cors": "^2.8.0",
+    "express": "^4.12.4",
+    "firebase": "^9.9.0",
+    "nodemon": "^2.0.19"
   }
 }
