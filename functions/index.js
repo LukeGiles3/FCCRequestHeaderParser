@@ -4,6 +4,8 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const requestIp = require('request-ip')
+const admin = require('firebase-admin');
+admin.initializeApp();
 
 // enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 // so that API is remotely testable by FCC
